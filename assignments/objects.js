@@ -76,8 +76,8 @@ console.log(intern5.gender);
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
-intern2.spak = function() {
-  return 'Hello, my name is Kennan!';
+intern2.speak = function() {
+  return 'Hello, my name is ' + intern2.name;
 }
 
 console.log(intern2.speak())
